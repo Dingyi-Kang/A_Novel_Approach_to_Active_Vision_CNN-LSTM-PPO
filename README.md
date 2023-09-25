@@ -26,6 +26,7 @@ To run the 3D environments, GPU is necessary.
 
 ## Results
 **Here is training results in terms of the reward of each epoch**
+<img width="1826" alt="image" src="https://github.com/Dingyi-Kang/A_Novel_Approach_to_Active_Vision_CNN-LSTM-PPO/assets/81428296/2397db64-4d0c-4cc2-8404-55b3b385c93d">
 
 **Here is training results in terms of the reward of every 50 epoches**
 <img width="1668" alt="image" src="https://github.com/Dingyi-Kang/A_Novel_Approach_to_Active_Vision_CNN-LSTM-PPO/assets/81428296/a108d788-c6b3-49ef-8ed2-c71f8c1c2cd5">
