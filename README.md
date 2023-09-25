@@ -46,3 +46,5 @@ To run the 3D environments, GPU is necessary.
 
 <img src="./figs/demo.gif" width="400" height="400" />
 
+# Model 2: CNN + Attention-based Predictive Learning + PPO
+## Under Enhancement – Coming Soon!
