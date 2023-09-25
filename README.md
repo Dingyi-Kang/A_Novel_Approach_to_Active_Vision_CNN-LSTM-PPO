@@ -8,6 +8,8 @@ A Novel Approach to Active Vision: Integrating Attention-based Predictive Learni
 ## Architecture
 **The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
 
+
+
 <img src="./figs/framework.png" height="700px">
 
 ## Environment
