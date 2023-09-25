@@ -1,4 +1,4 @@
-<img width="1668" alt="image" src="https://github.com/Dingyi-Kang/A_Novel_Approach_to_Active_Vision_CNN-LSTM-PPO/assets/81428296/b7ffae13-5384-4677-84c7-ab90fc7916cd">A Novel Approach to Active Vision: Integrating Attention-based Predictive Learning with Reinforcement Learning
+A Novel Approach to Active Vision: Integrating Attention-based Predictive Learning with Reinforcement Learning
 ===
 
 # Introduction
