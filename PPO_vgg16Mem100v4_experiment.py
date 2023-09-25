@@ -16,7 +16,7 @@ from datetime import datetime
 import cv2
 
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('tracker_view50_experiment.mp4', fourcc, 20.0, (336, 336))
+out = cv2.VideoWriter('tracker_view50_experiment.mp4', fourcc, 20.0, (224, 224))
 
 #preprocess function converts it to grayscale, and make its value between -1 and 1 (normalization)
 def preprocess(observation):
@@ -108,7 +108,7 @@ def sample_action(observation):
 # Hyperparameters of the PPO algorithm
 steps_per_epoch = 100 #store memories of 100 steps
 #batch_size = 1
-epochs = 50
+epochs = 20
 gamma = 0.9
 clip_ratio = 0.2
 policy_learning_rate = 1e-4
