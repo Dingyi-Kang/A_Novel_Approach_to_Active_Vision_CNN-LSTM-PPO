@@ -9,7 +9,13 @@ A Novel Approach to Active Vision: Integrating Attention-based Predictive Learni
 **The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
 ![framework](./figs/framework.png)
 ## Environment
-**The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
+We used the gym-unrealcv developed by .
+![3d_env](./figs/3d_env.png)
+The **3D environments** are built on Unreal Engine(UE4), which could be flexibly customized to simulate real-world active tracking scenarios.
+To run the 3D environments, GPU is necessary.
+
+**Here is the instructions to install and use the 3D environments
+[gym-unrealcv](https://github.com/zfw1226/gym-unrealcv).**
 
 ## Hyperparameters
 **The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
