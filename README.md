@@ -22,7 +22,7 @@ To run the 3D environments, GPU is necessary.
 [gym-unrealcv](https://github.com/zfw1226/gym-unrealcv).**
 
 ## Hyperparameters
-**The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
+**Each stack of frames contains the current and last two previous observations. The size of memory buffer for PPO is 100 steps. Both the policy learning rate and value function learning rate are 1e-4. The training iterations of both policy and value functions during memory recall process are 80. The clip ratio is 0.2 and the value of gamma is 0.9. The target kl value is 0.01 while the lam value is 0.97. The environment seed is set to 0. **
 
 ## Results
 **The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
