@@ -7,8 +7,8 @@ A Novel Approach to Active Vision: Integrating Attention-based Predictive Learni
 # Model 1 -- CNN-LSTM + PPO
 ## Architecture
 **The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
-![framework](./figs/framework.png)
-<img src="./figs/framework.png" height="100px">
+
+<img src="./figs/framework.png" height="400px">
 
 ## Environment
 We used the gym-unrealcv 3D environments for tracking tasks developed by Fangwei Zhong.
