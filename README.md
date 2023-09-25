@@ -22,7 +22,17 @@ To run the 3D environments, GPU is necessary.
 [gym-unrealcv](https://github.com/zfw1226/gym-unrealcv).**
 
 ## Hyperparameters
-**Each stack of frames contains the current and last two previous observations. The size of memory buffer for PPO, i.e. one epoch, is 100 steps. Both the policy learning rate and value function learning rate are 1e-4. The training iterations of both policy and value functions during memory recall process are 80. The clip ratio is 0.2 and the value of gamma is 0.9. The target kl value is 0.01 while the lam value is 0.97. The environment seed is set to 0.**
+* Each stack of frames contains the current and last two previous observations. 
+
+* The size of memory buffer for PPO, i.e. one epoch, is 100 steps. 
+
+* Both the policy learning rate and value function learning rate are 1e-4. 
+
+* The training iterations of both policy and value functions during memory recall process are 80. 
+
+* The clip ratio is 0.2 and the value of gamma is 0.9. The target kl value is 0.01 while the lam value is 0.97. 
+
+* The environment seed is set to 0.
 
 ## Results
 **Here is training results in terms of the reward of each epoch**
@@ -32,4 +42,9 @@ To run the 3D environments, GPU is necessary.
 <img width="1668" alt="image" src="https://github.com/Dingyi-Kang/A_Novel_Approach_to_Active_Vision_CNN-LSTM-PPO/assets/81428296/a108d788-c6b3-49ef-8ed2-c71f8c1c2cd5">
 
 ## Demo
-**The first model integrates a CNN-LSTM neural network with the PPO (Proximal Policy Optimization) algorithm, demonstrating exceptional performance in target tracking tasks.**
+**Here is a demo of the tracking performance of the model for the first 20 epoches.**
+
+<video width="320" height="240" controls>
+  <source src="./figs/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
