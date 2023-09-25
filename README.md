@@ -44,4 +44,5 @@ To run the 3D environments, GPU is necessary.
 ## Demo
 **Here is a demo of the tracking performance of the model for the first 20 epoches.**
 
-![Demo](./figs/demo.gif)
+<img src="./figs/demo.gi" width="500" height="500" />
+
