@@ -10,7 +10,7 @@ A Novel Approach to Active Vision: Integrating Attention-based Predictive Learni
 
 
 
-<img src="./figs/framework.png" height="700px">
+<img src="./figs/framework.png" height="600px">
 
 ## Environment
 We used the gym-unrealcv 3D environments for tracking tasks developed by Fangwei Zhong.
@@ -44,5 +44,5 @@ To run the 3D environments, GPU is necessary.
 ## Demo
 **Here is a demo of the tracking performance of the model for the first 20 epoches.**
 
-<img src="./figs/demo.gif" width="500" height="500" />
+<img src="./figs/demo.gif" width="400" height="400" />
 
